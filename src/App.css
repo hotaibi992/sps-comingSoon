@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+  overflow-y: hidden;
+}
+   
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.text-glow {
+  color: #fff; /* اللون الأساسي للنص */
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #ff00ff,
+    0 0 30px #ff00ff,
+    0 0 40px #ff00ff,
+    0 0 50px #ff00ff,
+    0 0 75px #ff00ff;
+} 
+
