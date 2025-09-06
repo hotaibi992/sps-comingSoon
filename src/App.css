@@ -9,14 +9,10 @@ body {
 }
 
 .text-glow {
-  color: #fff; /* اللون الأساسي للنص */
+  color: #FFA500; /* لون النص برتقالي */
   text-shadow:
-    0 0 5px #fff,
-    0 0 10px #fff,
-    0 0 20px #ff00ff,
-    0 0 30px #ff00ff,
-    0 0 40px #ff00ff,
-    0 0 50px #ff00ff,
-    0 0 75px #ff00ff;
-} 
-
+    0 0 2px #fff,
+    0 0 4px #FFA500,
+    0 0 6px #fff,
+    0 0 8px #FFA500;
+}
