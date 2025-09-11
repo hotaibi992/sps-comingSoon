@@ -1,6 +1,6 @@
 import "./App.css";
 import { motion } from "framer-motion";
-import logo from './assets/principleLogo.png';
+import logo from './assets/spsLogo.png';
 
 function App() {
   return (
@@ -26,17 +26,18 @@ function App() {
       </div>
 
       {/* Main Container */}
-      <div className="bg-black/60  p-6 sm:p-8 rounded-2xl shadow-2xl w-full max-w-2xl mx-4 flex flex-col items-center ">
+      <div className="bg-black/60  p-6 sm:p-8 rounded-2xl shadow-2xl w-full max-w-2xl flex flex-col items-center  mx-auto">
+        
         
         {/* Title */}
-        <h1 className="text-2xl sm:text-4xl md:text-5xl text-white text-balance font-bold font-tajawal text-center mb-4 sm:mb-6">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl text-white font-bold font-tajawal text-center mb-4 sm:mb-6">
           ترقبوا انطلاقتنا الجديدة
         </h1>
 
         {/* Subtitle */}
-        <p className="text-sm sm:text-md md:text-lg font-tajawal text-white text-center mb-6 sm:mb-8">
+        <p className="text-sm sm:text-md md:text-lg font-tajawal text-balance text-white text-center mb-3 sm:mb-8">
           سجّل بريدك الإلكتروني ليصلك إشعار فور الانطلاق
-        </p>
+        </p> 
 
         {/* Mailchimp Form */}
         <form
