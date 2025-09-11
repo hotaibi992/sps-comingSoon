@@ -34,7 +34,7 @@ function App() {
         </h1>
 
         {/* Subtitle */}
-        <p className="text-sm sm:text-md md:text-lg font-tajawal text-balance text-white text-center mb-6 sm:mb-8">
+        <p className="text-sm sm:text-md md:text-lg font-tajawal text-white text-center mb-6 sm:mb-8">
           سجّل بريدك الإلكتروني ليصلك إشعار فور الانطلاق
         </p>
 
