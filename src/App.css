@@ -3,16 +3,4 @@
 body {
   overflow-y: hidden;
 }
-   
-.perspective-1000 {
-  perspective: 1000px;
-}
-
-.text-glow {
-  color: #FFA500; /* لون النص برتقالي */
-  text-shadow:
-    0 0 2px #fff,
-    0 0 4px #FFA500,
-    0 0 6px #fff,
-    0 0 8px #FFA500;
-}
+  

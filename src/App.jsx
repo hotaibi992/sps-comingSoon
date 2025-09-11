@@ -4,12 +4,12 @@ import logo from './assets/principleLogo.png';
 
 function App() {
   return (
-    <div className="h-screen w-full bg-[url('/k2.jpg')] bg-cover bg-center flex flex-col items-center justify-center px-4 overflow-hidden">
+    <div className="h-screen w-full bg-[url('/2j.jpg')] bg-cover bg-center flex flex-col items-center justify-center px-4 overflow-hidden">
 
       {/* Header with logo */}
       <div className="flex flex-col sm:flex-row-reverse items-center justify-center gap-4 px-4 w-full mb-6">
-        <h1 className="text-3xl sm:text-5xl md:text-6xl font-tajawal text-white text-center sm:text-right">
-          مدارس المبادئ العلمية
+        <h1 className="text-3xl sm:text-5xl md:text-6xl font-tajawal text-white text-center sm:text-right text-balance">
+        روضة ومدارس المبادئ العلمية
         </h1>
         <motion.img
           src={logo}
@@ -26,39 +26,42 @@ function App() {
       </div>
 
       {/* Main Container */}
-      <div className="bg-black/30 backdrop-blur-md p-6 sm:p-8 rounded-2xl shadow-2xl w-full max-w-2xl mx-4 flex flex-col items-center">
+      <div className="bg-black/60  p-6 sm:p-8 rounded-2xl shadow-2xl w-full max-w-2xl mx-4 flex flex-col items-center ">
         
         {/* Title */}
-        <h1 className="text-3xl sm:text-6xl md:text-7xl font-poppins text-glow text-center mb-4 sm:mb-6">
-          🚀 Coming Soon
+        <h1 className="text-2xl sm:text-4xl md:text-5xl text-white text-balance font-bold font-tajawal text-center mb-4 sm:mb-6">
+          موقعنا الجديد قادم قريبًا
         </h1>
 
         {/* Subtitle */}
-        <p className="text-base sm:text-lg md:text-xl font-roboto text-white text-center mb-6 sm:mb-8">
-          سجّل بريدك لتصلك إشعارات عند الإطلاق
+        <p className="text-sm sm:text-md md:text-lg font-tajawal text-balance text-white text-center mb-6 sm:mb-8">
+          سجّل بريدك الإلكتروني ليصلك إشعار فور الانطلاق
         </p>
 
         {/* Mailchimp Form */}
         <form
-          action="https://yahoo.us7.list-manage.com/subscribe/post?u=26b300b17102a0a19a08c9425&amp;id=3b7545254d&amp;f_id=0086d1e0f0"
-          method="post"
-          target="_blank"
-          className="flex flex-col sm:flex-row items-center gap-2 bg-white/90 p-4 rounded-2xl shadow-lg w-full max-w-md"
-        >
-          <input
-            type="email"
-            name="EMAIL"
-            placeholder="أدخل بريدك الإلكتروني"
-            required
-            className="px-4 py-2 rounded-lg border border-gray-500 w-full sm:w-72 focus:outline-none focus:ring-2 focus:ring-blue-400"
-          />
-          <button
-            type="submit"
-            className="px-6 py-2 w-full sm:w-auto bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+            action="https://yahoo.us7.list-manage.com/subscribe/post?u=26b300b17102a0a19a08c9425&amp;id=3b7545254d&amp;f_id=0086d1e0f0"
+            method="post"
+            target="_blank"
+            className="flex flex-col sm:flex-row items-center justify-center gap-3 bg-white/90 p-3 rounded-xl shadow-lg w-full sm:max-w-sm mx-auto"
           >
-            notify me
-          </button>
+            <input
+              type="email"
+              name="EMAIL"
+              placeholder="أدخل بريدك الإلكتروني"
+              required
+              className="px-4 py-2 rounded-lg border border-gray-400 w-full sm:w-72
+                        text-sm sm:text-base md:text-lg font-tajawal
+                        focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
+            />
+            <button
+              type="submit"
+              className="px-5 py-2 w-full sm:w-auto bg-blue-600 text-white font-tajawal rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
+            >
+              أرسل
+            </button>
         </form>
+
       </div>
     </div>
   );
