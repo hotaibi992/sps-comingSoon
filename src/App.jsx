@@ -30,7 +30,7 @@ function App() {
         
         {/* Title */}
         <h1 className="text-2xl sm:text-4xl md:text-5xl text-white text-balance font-bold font-tajawal text-center mb-4 sm:mb-6">
-          ترقبوا انطلاقنا الجديدة
+          ترقبوا انطلاقتنا الجديدة
         </h1>
 
         {/* Subtitle */}
