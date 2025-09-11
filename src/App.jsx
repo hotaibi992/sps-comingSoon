@@ -4,7 +4,7 @@ import logo from './assets/principleLogo.png';
 
 function App() {
   return (
-    <div className="h-screen w-full bg-[url('/2j.jpg')] bg-cover bg-center flex flex-col items-center justify-center px-4 overflow-hidden">
+    <div className="h-screen w-full bg-[url('/2j.webp')] bg-cover bg-[left_35%_center] sm:bg-center flex flex-col items-center justify-center px-4 overflow-hidden">
 
       {/* Header with logo */}
       <div className="flex flex-col sm:flex-row-reverse items-center justify-center gap-4 px-4 w-full mb-6">
@@ -30,7 +30,7 @@ function App() {
         
         {/* Title */}
         <h1 className="text-2xl sm:text-4xl md:text-5xl text-white text-balance font-bold font-tajawal text-center mb-4 sm:mb-6">
-          موقعنا الجديد قادم قريبًا
+          ترقبوا انطلاقنا الجديدة
         </h1>
 
         {/* Subtitle */}
