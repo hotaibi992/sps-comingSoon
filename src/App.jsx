@@ -52,7 +52,7 @@ function App() {
               placeholder="أدخل بريدك الإلكتروني"
               required
               className="px-4 py-2 rounded-lg border border-gray-400 w-full sm:w-72
-                        text-sm sm:text-base md:text-lg font-tajawal
+                        text-sm sm:text-base md:text-lg font-tajawal text-right
                         focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
             />
             <button
